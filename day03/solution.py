@@ -8,7 +8,7 @@ def mul(a: int, b: int) -> int:
 
 dirpath = os.getcwd()
 
-with open(dirpath + '/adventOfCode2024/Day3/input.txt', 'r') as file:
+with open(dirpath + '/input.txt', 'r') as file:
     content = file.read()
 
 pattern = r'mul\(\d{1,3},\d{1,3}\)'

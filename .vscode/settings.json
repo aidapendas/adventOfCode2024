@@ -1,0 +1,100 @@
+{
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./qi_analytics/data",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.formatting.autopep8Args": [
+        "--max-line-length",
+        "120"
+    ],
+    "editor.rulers": [79],
+    "python.jediEnabled": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "rainbow1",
+                "settings": {
+                   "foreground": "#E6194B"
+                }
+            },
+            {
+                "scope": "keyword.rainbow2",
+                "settings": {
+                   "foreground": "#3CB44B"
+                }
+            },
+            {
+                "scope": "entity.name.function.rainbow3",
+                "settings": {
+                   "foreground": "#FFE119"
+                }
+            },
+            {
+                "scope": "comment.rainbow4",
+                "settings": {
+                   "foreground": "#0082C8"
+                }
+            },
+            {
+                "scope": "string.rainbow5",
+                "settings": {
+                   "foreground": "#FABEBE"
+                }
+            },
+            {
+                "scope": "variable.parameter.rainbow6",
+                "settings": {
+                   "foreground": "#46F0F0"
+                }
+            },
+            {
+                "scope": "constant.numeric.rainbow7",
+                "settings": {
+                   "foreground": "#F032E6"
+                }
+            },
+            {
+                "scope": "entity.name.type.rainbow8",
+                "settings": {
+                   "foreground": "#008080"
+                }
+            },
+            {
+                "scope": "markup.bold.rainbow9",
+                "settings": {
+                   "foreground": "#F58231"
+                }
+            },
+            {
+                "scope": "invalid.rainbow10",
+                "settings": {
+                   "foreground": "#FFFFFF"
+                }
+            }
+        ]
+    },
+    "python.languageServer": "Jedi",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "black-formatter.args" : [
+        "--skip-string-normalization",
+        "--line-length",
+        "79",
+    ],
+    "isort.args":[
+        "--profile",
+        "black",
+        "--skip-gitignore",
+        "--line-length",
+        "79",
+    ]
+}

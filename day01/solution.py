@@ -4,7 +4,7 @@ import numpy as np
 def get_distance(point1, point2):
     return abs(point1 - point2)
 
-df_ = pd.read_excel("Lists.xlsx")
+df_ = pd.read_excel("input.xlsx")
 
 list1 = df_["List1"].tolist()
 list1.sort()

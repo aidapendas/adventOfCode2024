@@ -43,7 +43,7 @@ def is_safe_with_dampener(l: list) -> bool:
 dir_path = os.getcwd()
 
 df_ = pd.read_excel(
-    dir_path + "/adventOfCode2024/Day2/UnusualData.xlsx", sheet_name="Sheet1"
+    dir_path + "/input.xlsx", sheet_name="Sheet1"
 )
 
 safety_list = [
