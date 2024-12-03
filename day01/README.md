@@ -19,10 +19,10 @@ The Chief Historian is missing, and with Christmas quickly approaching, the Elve
 ### Example Input
 
 Given two lists of numbers (location IDs):
-
+```
   Left List: 3, 4, 2, 1, 3, 3 
   Right List: 4, 3, 5, 3, 9, 3
-
+```
 
 ### Part 1: Total Distance
 
