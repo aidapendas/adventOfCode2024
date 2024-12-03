@@ -98,7 +98,7 @@ This repository is licensed under the MIT License. See the LICENSE file for more
 ## 🎉 Let's Connect
 If you have any feedback, questions, or would like to collaborate, feel free to reach out:
 
-GitHub: [Your GitHub Profile](https://github.com/aidapendas/)
+GitHub: [aidapendas](https://github.com/aidapendas/)
 
 ---
 
