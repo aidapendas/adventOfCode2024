@@ -25,7 +25,7 @@ Each day's challenge is located in its respective folder:
 ├── day01/
 │   ├── README.md         # Description of the challenge
 │   ├── solution.py       # My solution
-│   └── input.txt         # Puzzle input
+│   └── input.txt         # Puzzle input (sometimes it will be input.xlsx)
 ├── day02/
 │   ├── README.md
 │   ├── solution.py
