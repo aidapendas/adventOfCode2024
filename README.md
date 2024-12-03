@@ -70,8 +70,7 @@ The primary goals of solving Advent of Code challenges are:
 
 Make sure you have the following installed on your machine:
 
-- [Python](https://www.python.org/downloads/) (or your language of choice)
-- Any dependencies listed in a `requirements.txt` file (if applicable)
+- [Python](https://www.python.org/downloads/)
 
 ### Running a Solution
 
