@@ -38,10 +38,7 @@ def count_word_occurrences(matrix, word):
 
 
 # Read the word search from a text file
-dirpath = os.getcwd()
-file_path = (
-    dirpath + "/adventOfCode2024/day04/input.txt"
-)  # Replace with the path to your file
+file_path = ("input.txt")  # Replace with the path to your file
 
 with open(file_path, 'r') as file:
     word_search = [line.strip() for line in file.readlines() if line.strip()]
@@ -58,7 +55,6 @@ count = count_word_occurrences(matrix, word)
 print(f"The word '{word}' occurs {count} times.")
 
 ##### part 2 #####
-
 
 def count_x_mas(matrix):
     rows = len(matrix)
@@ -101,12 +97,7 @@ def count_x_mas(matrix):
 
     return count
 
-
-# Read the word search from a text file
-dirpath = os.getcwd()
-file_path = (
-    dirpath + "/adventOfCode2024/day04/input.txt"
-)  # Replace with the path to your file
+file_path = ("input.txt")  # Replace with the path to your file
 
 with open(file_path, 'r') as file:
     word_search = [line.strip() for line in file.readlines() if line.strip()]
